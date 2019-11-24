@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>buttons</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <!-- Дополнение к теме -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Последняя компиляция и сжатый JavaScript -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <bottom class="btn btn-default"> Стандарт</bottom>
+    <input type="btn" class=" btn btn-primary" value="Основная" />
+    <input type="submit" class=" btn btn-success" value="Подтвердить" />
+    <a href="#" class="btn btn-info" role="button">Увидомление</a>
+    <bottom class="btn btn-warning"> Внимание</bottom>
+    <bottom class="btn btn-danger"> Отмены</bottom>
+    <bottom class="btn btn-link"> Ссылка</bottom>
+    <br />
+    <br />
+    <bottom class="btn btn-default btn-lg"> Кнопка</bottom>
+    <bottom class="btn btn-default btn-md"> Кнопка</bottom>
+    <bottom class="btn btn-default btn-sm"> Кнопка</bottom>
+    <bottom class="btn btn-default btn-xs"> Кнопка</bottom>
+    <br /><br />
+    <bottom class="btn btn-success btn-md btn-block"> Кнопка</bottom>
+    <br /><br />
+    <bottom class="btn btn-default btn-lg active"> Кнопка</bottom>
+    <bottom class="btn btn-default btn-lg disabled"> Кнопка</bottom>
+    <br /><br />
+
+    <div class="btn-group btn-group-justified">
+      <div class=" btn-group btn-group-md" data-toggle="buttons">
+        <lable class="btn btn-primary">
+          <input type="checkbox" />Параметр 1
+        </lable>
+        <lable class="btn btn-primary">
+          <input type="checkbox" />Параметр 2
+        </lable>
+        <lable class="btn btn-primary">
+          <input type="checkbox" />Параметр 3
+        </lable>
+      </div>
+
+      <div class=" btn-group btn-group-md" data-toggle="buttons">
+        <lable class="btn btn-primary">
+          <input type="radio" />Параметр 1
+        </lable>
+        <lable class="btn btn-primary">
+          <input type="radio" />Параметр 2
+        </lable>
+        <lable class="btn btn-primary">
+          <input type="radio" />Параметр 3
+        </lable>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class=" btn-group-vertical btn-group-md" data-toggle="buttons">
+      <lable class="btn btn-primary"> <input type="radio" />Параметр 1 </lable>
+      <lable class="btn btn-primary"> <input type="radio" />Параметр 2 </lable>
+      <lable class="btn btn-primary"> <input type="radio" />Параметр 3 </lable>
+    </div>
+  </body>
+</html>
